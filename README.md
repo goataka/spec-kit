@@ -1,6 +1,6 @@
 # Spec Kit
 
-このリポジトリは、[Spec Kit](https://github.com/goataka/spec-kit)の検証として勤怠管理システムを構築しています。
+このリポジトリは、[Spec Kit](https://github.com/github/spec-kit)の検証として勤怠管理システムを構築しています。
 
 ## 概要
 

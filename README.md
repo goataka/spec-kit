@@ -1,1 +1,1 @@
-# speckit
+# spec-kit

@@ -4,13 +4,14 @@ SYNC IMPACT REPORT
 ============================================================================
 Constitution Amendment Report - Generated: 2025-12-22
 
-Version Change: 1.0.0 → 1.1.0 (Japanese Language Priority amendment)
+Version Change: 1.2.0 → 1.3.0 (Japanese Language Priority principle added)
 
 Modified Principles:
 - NEW: VI. Japanese Language Priority
+- NEW: VII. Technical Constraints
 
 Added Sections:
-- Core Principles (Principle VI added)
+- Core Principles (Principle VI and VII added)
 
 Removed Sections:
 - None
@@ -94,14 +95,24 @@ Notes:
 
 ### VI. Japanese Language Priority
 
-すべてのAIエージェントのやり取り、プロンプト、テンプレート、ドキュメントは日本語で行わなければなりません：
-- AIエージェントのコマンドと応答は日本語言語を排他的に使用しなければなりません
-- AIエージェントに提供されるすべてのプロンプトは日本語で書かれなければなりません
-- `.specify/templates/` のテンプレートは日本語で作成・維持されなければなりません
-- ドキュメント成果物は日本語で生成・レビューされなければなりません
-- 例外は憲法チェックで明示的な正当化がある場合のみ許可されます
+すべてのやり取り、ドキュメント、成果物は日本語で行わなければなりません：
+- 専門用語を除き、説明は自然な日本語を使用しなければなりません
+- ドキュメントはUTF-8で保存しなければなりません
+- 英語の専門用語は必要に応じて使用可能ですが、説明は日本語でしなければなりません
 
-**根拠**: コミュニケーションの一貫性を確保し、プロジェクトのローカライズ目標に沿い、AI支援開発活動のすべての主要運用言語として日本語を義務付けます。
+**根拠**: プロジェクトの言語一貫性を確保し、チームのコミュニケーションを改善します。
+
+### VII. Technical Constraints
+
+勤怠管理システムの開発では以下の技術的制約を厳守しなければなりません：
+- バックエンドはNestJS + AWS Lambda + API Gatewayを使用しなければなりません
+- フロントエンドはReact SPA (SSRなし) を使用しなければなりません
+- データベースはAmazon DynamoDBを使用しなければなりません
+- デプロイはAWSサーバレス構成 (S3 + CloudFront) で行わなければなりません
+- 画面サイズは最低1280x1024px、推奨1920x1080px以上をサポートしなければなりません
+- 費用削減のため、サーバレスアーキテクチャを優先しなければなりません
+
+**根拠**: プロジェクトの技術的決定を明確にし、品質と一貫性を確保し、運用コストを最適化します。
 
 ## Workflow Phases
 
@@ -153,6 +164,6 @@ Notes:
 - テンプレート変更をマージする前に憲法整合性を検証しなければなりません
 - この憲法はspeckitの開発ガバナンスとワークフロー要件を定義します
 
-**Version**: 1.1.0 | **Ratified**: 2025-12-22 | **Last Amended**: 2025-12-22
+**Version**: 1.3.0 | **Ratified**: 2025-12-22 | **Last Amended**: 2025-12-22
 
 

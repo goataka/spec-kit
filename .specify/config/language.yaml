@@ -1,0 +1,23 @@
+primary_language: "ja"
+fallback_language: "en"
+language_detection:
+  rules:
+    - priority: "user_locale"
+      description: "Detect language from user's system locale settings"
+    - priority: "content_analysis"
+      description: "Analyze content for Japanese characters and patterns"
+    - priority: "explicit_setting"
+      description: "Use explicitly set language in user preferences"
+template_language: "ja"
+prompt_language: "ja"
+validation:
+  rules:
+    - rule: "japanese_characters_required"
+      description: "Ensure primary content contains Japanese characters (Hiragana, Katakana, Kanji)"
+      severity: "warning"
+    - rule: "english_fallback_allowed"
+      description: "Allow English as fallback for technical terms or when Japanese equivalent is unavailable"
+      severity: "info"
+    - rule: "character_encoding"
+      description: "Validate UTF-8 encoding to support Japanese characters properly"
+      severity: "error"

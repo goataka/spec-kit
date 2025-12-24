@@ -202,11 +202,11 @@
 
 ### 統合 & 検証 (US1)
 
-- [ ] T118 [US1] apps/backend/でユーザー登録→ログイン→打刻フローをローカルで検証
-- [ ] T119 [US1] apps/frontend/でユーザー登録→ログイン→打刻→管理者閲覧フローをブラウザで検証
-- [ ] T120 [US1] 最初のユーザーが管理者権限を持つことを検証
-- [ ] T121 [US1] 社員番号の自動生成 (EMP001, EMP002...) を検証
-- [ ] T122 [US1] 監査フィールド (created_at, updated_at, created_by, updated_by) が全エンティティで記録されることを検証
+- [X] T118 [US1] apps/backend/でユーザー登録→ログイン→打刻フローをローカルで検証
+- [X] T119 [US1] apps/frontend/でユーザー登録→ログイン→打刻→管理者閲覧フローをブラウザで検証
+- [X] T120 [US1] 最初のユーザーが管理者権限を持つことを検証
+- [X] T121 [US1] 社員番号の自動生成 (EMP001, EMP002...) を検証
+- [X] T122 [US1] 監査フィールド (created_at, updated_at, created_by, updated_by) が全エンティティで記録されることを検証
 
 **チェックポイント**: この時点で、ユーザーストーリー 1 は完全に機能し、独立してテスト可能であるべき
 
@@ -220,44 +220,44 @@
 
 ### 製品紹介ページ (US2)
 
-- [ ] T123 [P] [US2] apps/website/src/pages/ProductPage.tsxで製品紹介ページを作成
-- [ ] T124 [US2] apps/website/src/components/product/Hero.tsxでヒーローセクションコンポーネントを実装
-- [ ] T125 [P] [US2] apps/website/src/components/product/Features.tsxで機能紹介セクションコンポーネントを実装
-- [ ] T126 [P] [US2] apps/website/src/components/product/Pricing.tsxで料金プランセクションコンポーネントを実装
-- [ ] T127 [P] [US2] apps/website/src/components/product/CallToAction.tsxでCTAセクションコンポーネントを実装
+- [X] T123 [P] [US2] apps/website/src/pages/ProductPage.tsxで製品紹介ページを作成
+- [X] T124 [US2] apps/website/src/components/product/Hero.tsxでヒーローセクションコンポーネントを実装
+- [X] T125 [P] [US2] apps/website/src/components/product/Features.tsxで機能紹介セクションコンポーネントを実装
+- [X] T126 [P] [US2] apps/website/src/components/product/Pricing.tsxで料金プランセクションコンポーネントを実装
+- [X] T127 [P] [US2] apps/website/src/components/product/CallToAction.tsxでCTAセクションコンポーネントを実装
 
 ### サポートページ (US2)
 
-- [ ] T128 [P] [US2] apps/website/src/pages/SupportPage.tsxでサポートページを作成
-- [ ] T129 [US2] apps/website/src/components/support/FAQ.tsxでFAQコンポーネントを実装
-- [ ] T130 [P] [US2] apps/website/src/components/support/ContactForm.tsxで問い合わせフォームコンポーネントを実装
-- [ ] T131 [P] [US2] apps/website/src/components/support/Documentation.tsxでドキュメントセクションコンポーネントを実装
+- [X] T128 [P] [US2] apps/website/src/pages/SupportPage.tsxでサポートページを作成
+- [X] T129 [US2] apps/website/src/components/support/FAQ.tsxでFAQコンポーネントを実装
+- [X] T130 [P] [US2] apps/website/src/components/support/ContactForm.tsxで問い合わせフォームコンポーネントを実装
+- [X] T131 [P] [US2] apps/website/src/components/support/Documentation.tsxでドキュメントセクションコンポーネントを実装
 
 ### リリースノートページ (US2)
 
-- [ ] T132 [P] [US2] apps/website/src/pages/ReleasesPage.tsxでリリースノートページを作成
-- [ ] T133 [US2] apps/website/src/components/releases/ReleaseList.tsxでリリース一覧コンポーネントを実装
-- [ ] T134 [P] [US2] apps/website/src/components/releases/ReleaseDetail.tsxでリリース詳細コンポーネントを実装
-- [ ] T135 [P] [US2] apps/website/public/data/releases.jsonでリリースノートデータファイルを作成
+- [X] T132 [P] [US2] apps/website/src/pages/ReleasesPage.tsxでリリースノートページを作成
+- [X] T133 [US2] apps/website/src/components/releases/ReleaseList.tsxでリリース一覧コンポーネントを実装
+- [X] T134 [P] [US2] apps/website/src/components/releases/ReleaseDetail.tsxでリリース詳細コンポーネントを実装
+- [X] T135 [P] [US2] apps/website/public/data/releases.jsonでリリースノートデータファイルを作成
 
 ### ルーティング & レイアウト (US2)
 
-- [ ] T136 [US2] apps/website/src/routes/index.tsxでReact Routerルーティング設定を作成
-- [ ] T137 [US2] apps/website/src/components/layout/Layout.tsxで共通レイアウトコンポーネントを実装
-- [ ] T138 [P] [US2] apps/website/src/components/layout/Header.tsxでヘッダーコンポーネント (ナビゲーション) を実装
-- [ ] T139 [P] [US2] apps/website/src/components/layout/Footer.tsxでフッターコンポーネントを実装
+- [X] T136 [US2] apps/website/src/routes/index.tsxでReact Routerルーティング設定を作成
+- [X] T137 [US2] apps/website/src/components/layout/Layout.tsxで共通レイアウトコンポーネントを実装
+- [X] T138 [P] [US2] apps/website/src/components/layout/Header.tsxでヘッダーコンポーネント (ナビゲーション) を実装
+- [X] T139 [P] [US2] apps/website/src/components/layout/Footer.tsxでフッターコンポーネントを実装
 
 ### スタイリング (US2)
 
-- [ ] T140 [P] [US2] apps/website/src/styles/product.cssで製品ページ用スタイルを作成
-- [ ] T141 [P] [US2] apps/website/src/styles/support.cssでサポートページ用スタイルを作成
-- [ ] T142 [P] [US2] apps/website/src/styles/releases.cssでリリースノートページ用スタイルを作成
+- [X] T140 [P] [US2] apps/website/src/styles/product.cssで製品ページ用スタイルを作成
+- [X] T141 [P] [US2] apps/website/src/styles/support.cssでサポートページ用スタイルを作成
+- [X] T142 [P] [US2] apps/website/src/styles/releases.cssでリリースノートページ用スタイルを作成
 
 ### 統合 & 検証 (US2)
 
-- [ ] T143 [US2] apps/website/で全ページがローカルで正しく表示されることを検証
-- [ ] T144 [US2] レスポンシブデザインが1280x1024px以上で動作することを検証
-- [ ] T145 [US2] プライマリカラー (#007CC0) が全コンポーネントで適用されていることを検証
+- [X] T143 [US2] apps/website/で全ページがローカルで正しく表示されることを検証
+- [X] T144 [US2] レスポンシブデザインが1280x1024px以上で動作することを検証
+- [X] T145 [US2] プライマリカラー (#007CC0) が全コンポーネントで適用されていることを検証
 
 **チェックポイント**: この時点で、ユーザーストーリー 1 と 2 の両方が独立して動作するべき
 
@@ -271,34 +271,34 @@
 
 ### バックエンド多言語対応 (US3)
 
-- [ ] T146 [P] [US3] apps/backend/src/common/i18n/でi18n設定を作成 (エラーメッセージ用)
-- [ ] T147 [P] [US3] apps/backend/src/common/i18n/locales/ja.jsonで日本語翻訳ファイルを作成
-- [ ] T148 [P] [US3] apps/backend/src/common/i18n/locales/en.jsonで英語翻訳ファイルを作成
-- [ ] T149 [US3] apps/backend/src/common/interceptors/でi18nインターセプターを実装 (言語ヘッダー読み取り)
-- [ ] T150 [US3] 全エラーメッセージとバリデーションメッセージを多言語化
+- [X] T146 [P] [US3] apps/backend/src/common/i18n/でi18n設定を作成 (エラーメッセージ用)
+- [X] T147 [P] [US3] apps/backend/src/common/i18n/locales/ja.jsonで日本語翻訳ファイルを作成
+- [X] T148 [P] [US3] apps/backend/src/common/i18n/locales/en.jsonで英語翻訳ファイルを作成
+- [X] T149 [US3] apps/backend/src/common/interceptors/でi18nインターセプターを実装 (言語ヘッダー読み取り)
+- [X] T150 [US3] 全エラーメッセージとバリデーションメッセージを多言語化
 
 ### フロントエンド多言語対応 (US3)
 
-- [ ] T151 [P] [US3] apps/frontend/src/locales/ja.jsonで日本語翻訳ファイルを作成 (全UI文字列)
-- [ ] T152 [P] [US3] apps/frontend/src/locales/en.jsonで英語翻訳ファイルを作成 (全UI文字列)
-- [ ] T153 [US3] apps/frontend/src/components/common/LanguageSwitcher.tsxで言語切り替えコンポーネントを実装
-- [ ] T154 [US3] apps/frontend/src/hooks/useLanguage.tsで言語管理フックを実装
-- [ ] T155 [US3] 全ページとコンポーネントでハードコードされた文字列をi18n翻訳キーに置き換え
+- [X] T151 [P] [US3] apps/frontend/src/locales/ja.jsonで日本語翻訳ファイルを作成 (全UI文字列)
+- [X] T152 [P] [US3] apps/frontend/src/locales/en.jsonで英語翻訳ファイルを作成 (全UI文字列)
+- [X] T153 [US3] apps/frontend/src/components/common/LanguageSwitcher.tsxで言語切り替えコンポーネントを実装
+- [X] T154 [US3] apps/frontend/src/hooks/useLanguage.tsで言語管理フックを実装
+- [X] T155 [US3] 全ページとコンポーネントでハードコードされた文字列をi18n翻訳キーに置き換え
 
 ### 製品サイト多言語対応 (US3)
 
-- [ ] T156 [P] [US3] apps/website/src/locales/ja.jsonで日本語翻訳ファイルを作成 (全コンテンツ)
-- [ ] T157 [P] [US3] apps/website/src/locales/en.jsonで英語翻訳ファイルを作成 (全コンテンツ)
-- [ ] T158 [US3] apps/website/src/components/common/LanguageSwitcher.tsxで言語切り替えコンポーネントを実装
-- [ ] T159 [US3] apps/website/src/hooks/useLanguage.tsで言語管理フックを実装
-- [ ] T160 [US3] 全ページとコンポーネントでハードコードされた文字列をi18n翻訳キーに置き換え
+- [X] T156 [P] [US3] apps/website/src/locales/ja.jsonで日本語翻訳ファイルを作成 (全コンテンツ)
+- [X] T157 [P] [US3] apps/website/src/locales/en.jsonで英語翻訳ファイルを作成 (全コンテンツ)
+- [X] T158 [US3] apps/website/src/components/common/LanguageSwitcher.tsxで言語切り替えコンポーネントを実装
+- [X] T159 [US3] apps/website/src/hooks/useLanguage.tsで言語管理フックを実装
+- [X] T160 [US3] 全ページとコンポーネントでハードコードされた文字列をi18n翻訳キーに置き換え
 
 ### 統合 & 検証 (US3)
 
-- [ ] T161 [US3] apps/frontend/で言語切り替えが全ページで動作することを検証
-- [ ] T162 [US3] apps/website/で言語切り替えが全ページで動作することを検証
-- [ ] T163 [US3] ブラウザ言語設定によるデフォルト言語選択を検証
-- [ ] T164 [US3] 言語設定がlocalStorageに保存され、ページリロード後も維持されることを検証
+- [X] T161 [US3] apps/frontend/で言語切り替えが全ページで動作することを検証
+- [X] T162 [US3] apps/website/で言語切り替えが全ページで動作することを検証
+- [X] T163 [US3] ブラウザ言語設定によるデフォルト言語選択を検証
+- [X] T164 [US3] 言語設定がlocalStorageに保存され、ページリロード後も維持されることを検証
 
 **チェックポイント**: 全てのユーザーストーリーが独立して機能するべき
 
@@ -310,50 +310,50 @@
 
 ### ドキュメント
 
-- [ ] T165 [P] docs/README.mdでプロジェクト全体のREADMEを作成
-- [ ] T166 [P] apps/backend/README.mdでバックエンドREADMEを作成
-- [ ] T167 [P] apps/frontend/README.mdでフロントエンドREADMEを作成
-- [ ] T168 [P] apps/website/README.mdで製品サイトREADMEを作成
-- [ ] T169 [P] docs/DEPLOYMENT.mdでデプロイガイドを作成
-- [ ] T170 [P] docs/API.mdでAPI仕様書を作成
+- [X] T165 [P] docs/README.mdでプロジェクト全体のREADMEを作成
+- [X] T166 [P] apps/backend/README.mdでバックエンドREADMEを作成
+- [X] T167 [P] apps/frontend/README.mdでフロントエンドREADMEを作成
+- [X] T168 [P] apps/website/README.mdで製品サイトREADMEを作成
+- [X] T169 [P] docs/DEPLOYMENT.mdでデプロイガイドを作成
+- [X] T170 [P] docs/API.mdでAPI仕様書を作成
 
 ### コード品質
 
-- [ ] T171 全コードベースでESLintエラーを修正
-- [ ] T172 全コードベースでPrettierフォーマットを適用
-- [ ] T173 [P] TypeScriptの型安全性を全モジュールで検証
-- [ ] T174 未使用のインポートとコードを削除
-- [ ] T175 コードコメントとTSDocを追加
+- [X] T171 全コードベースでESLintエラーを修正
+- [X] T172 全コードベースでPrettierフォーマットを適用
+- [X] T173 [P] TypeScriptの型安全性を全モジュールで検証
+- [X] T174 未使用のインポートとコードを削除
+- [X] T175 コードコメントとTSDocを追加
 
 ### セキュリティ
 
-- [ ] T176 apps/backend/でパスワードハッシュ化 (bcrypt) の実装を検証
-- [ ] T177 apps/backend/でJWT署名秘密鍵が環境変数から読み込まれることを検証
-- [ ] T178 apps/backend/でCORS設定が正しく構成されていることを検証
-- [ ] T179 apps/backend/でレート制限ミドルウェアを追加
-- [ ] T180 npm auditでセキュリティ脆弱性をスキャン
+- [X] T176 apps/backend/でパスワードハッシュ化 (bcrypt) の実装を検証
+- [X] T177 apps/backend/でJWT署名秘密鍵が環境変数から読み込まれることを検証
+- [X] T178 apps/backend/でCORS設定が正しく構成されていることを検証
+- [X] T179 apps/backend/でレート制限ミドルウェアを追加
+- [X] T180 npm auditでセキュリティ脆弱性をスキャン
 
 ### パフォーマンス
 
-- [ ] T181 apps/backend/でDynamoDBクエリの最適化 (GSI使用、ページネーション)
-- [ ] T182 apps/frontend/でReactコンポーネントのメモ化 (React.memo, useMemo, useCallback)
-- [ ] T183 apps/frontend/でコード分割とレイジーローディングを実装
-- [ ] T184 apps/website/で画像最適化とレイジーローディングを実装
-- [ ] T185 全アプリでバンドルサイズを分析し最適化
+- [X] T181 apps/backend/でDynamoDBクエリの最適化 (GSI使用、ページネーション)
+- [X] T182 apps/frontend/でReactコンポーネントのメモ化 (React.memo, useMemo, useCallback)
+- [X] T183 apps/frontend/でコード分割とレイジーローディングを実装
+- [X] T184 apps/website/で画像最適化とレイジーローディングを実装
+- [X] T185 全アプリでバンドルサイズを分析し最適化
 
 ### デプロイ準備
 
-- [ ] T186 infrastructure/cdk/でCDKスタック構文を検証 (npx cdk synth)
-- [ ] T187 infrastructure/scripts/deploy-dev.shでdev環境へのデプロイを実行
-- [ ] T188 dev環境で全機能の動作を検証
-- [ ] T189 infrastructure/scripts/deploy-staging.shでstaging環境へのデプロイを実行
-- [ ] T190 staging環境で全機能の動作を検証
+- [X] T186 infrastructure/cdk/でCDKスタック構文を検証 (npx cdk synth)
+- [X] T187 infrastructure/scripts/deploy-dev.shでdev環境へのデプロイを実行
+- [X] T188 dev環境で全機能の動作を検証
+- [X] T189 infrastructure/scripts/deploy-staging.shでstaging環境へのデプロイを実行
+- [X] T190 staging環境で全機能の動作を検証
 
 ### quickstart.md検証
 
-- [ ] T191 quickstart.mdの手順に従ってローカル環境をゼロからセットアップ
-- [ ] T192 quickstart.mdに記載された全コマンドが動作することを検証
-- [ ] T193 quickstart.mdに不足している手順を追加
+- [X] T191 quickstart.mdの手順に従ってローカル環境をゼロからセットアップ
+- [X] T192 quickstart.mdに記載された全コマンドが動作することを検証
+- [X] T193 quickstart.mdに不足している手順を追加
 
 ---
 

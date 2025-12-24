@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  localstack:
+    image: localstack/localstack:3.0
+    ports:
+      - "4566:4566"
+    environment:
+      - SERVICES=dynamodb,lambda,apigateway,iam,cognito-idp
+      - DEBUG=1
+      - DYNAMODB_SHARE_DB=1
+      - DOCKER_HOST=unix:///var/run/docker.sock
+    volumes:
+      - "./localstack:/var/lib/localstack"
+      - "/var/run/docker.sock:/var/run/docker.sock"
+    networks:
+      - attendance-network
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    networks:
+      - attendance-network
+
+volumes:
+  redis-data:
+
+networks:
+  attendance-network:
+    driver: bridge

@@ -1,0 +1,74 @@
+{
+  "common": {
+    "appName": "勤怠管理システム",
+    "loading": "読み込み中...",
+    "save": "保存",
+    "cancel": "キャンセル",
+    "delete": "削除",
+    "edit": "編集",
+    "close": "閉じる",
+    "yes": "はい",
+    "no": "いいえ",
+    "search": "検索",
+    "filter": "フィルター",
+    "export": "エクスポート"
+  },
+  "auth": {
+    "login": "ログイン",
+    "logout": "ログアウト",
+    "register": "新規登録",
+    "email": "メールアドレス",
+    "password": "パスワード",
+    "name": "名前",
+    "loginButton": "ログイン",
+    "registerButton": "登録",
+    "forgotPassword": "パスワードを忘れた",
+    "alreadyHaveAccount": "アカウントをお持ちですか？",
+    "dontHaveAccount": "アカウントをお持ちでないですか？",
+    "loginSuccess": "ログインに成功しました",
+    "registerSuccess": "登録に成功しました"
+  },
+  "attendance": {
+    "checkIn": "出勤",
+    "checkOut": "退勤",
+    "status": "勤務状態",
+    "checkedIn": "出勤中",
+    "checkedOut": "退勤済み",
+    "workingTime": "勤務時間",
+    "todayAttendance": "本日の勤怠",
+    "attendanceHistory": "勤怠履歴",
+    "checkInSuccess": "出勤を記録しました",
+    "checkOutSuccess": "退勤を記録しました"
+  },
+  "admin": {
+    "dashboard": "ダッシュボード",
+    "users": "ユーザー管理",
+    "employees": "従業員管理",
+    "attendanceManagement": "勤怠管理",
+    "userList": "ユーザー一覧",
+    "employeeList": "従業員一覧",
+    "clockRecords": "打刻記録",
+    "employeeNumber": "社員番号",
+    "department": "部署",
+    "position": "役職",
+    "role": "権限",
+    "admin": "管理者",
+    "employee": "従業員"
+  },
+  "navigation": {
+    "home": "ホーム",
+    "attendance": "勤怠",
+    "profile": "プロフィール",
+    "settings": "設定",
+    "support": "サポート",
+    "releases": "リリースノート"
+  },
+  "errors": {
+    "serverError": "サーバーエラーが発生しました",
+    "networkError": "ネットワークエラーが発生しました",
+    "unauthorized": "認証されていません",
+    "forbidden": "アクセス権限がありません",
+    "notFound": "ページが見つかりません",
+    "validationError": "入力内容を確認してください"
+  }
+}

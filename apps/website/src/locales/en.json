@@ -1,0 +1,106 @@
+{
+  "website": {
+    "title": "Attendance Management System",
+    "tagline": "Simpler cloud-based attendance management"
+  },
+  "hero": {
+    "title": "Simpler Attendance Management",
+    "subtitle": "Accurately record and manage employee work hours with our cloud-based attendance management system",
+    "ctaStart": "Get Started Free",
+    "ctaLearnMore": "Learn More"
+  },
+  "features": {
+    "title": "Key Features",
+    "subtitle": "Everything you need for attendance management",
+    "items": {
+      "easyClocking": {
+        "title": "Easy Clock-in/out",
+        "description": "Record check-in and check-out with one click. Easy to use from smartphones too."
+      },
+      "dashboard": {
+        "title": "Admin Dashboard",
+        "description": "View all employee attendance at a glance. Monitor work status in real-time."
+      },
+      "cloud": {
+        "title": "Cloud-based",
+        "description": "Access from anywhere. Data is securely stored in the cloud."
+      },
+      "multilingual": {
+        "title": "Multilingual Support",
+        "description": "Supports Japanese and English. Safe for global teams."
+      },
+      "secure": {
+        "title": "Secure",
+        "description": "Built on AWS infrastructure. Data encryption and regular backups."
+      },
+      "responsive": {
+        "title": "Responsive Design",
+        "description": "Optimal display on PCs, tablets, smartphones, and all devices."
+      }
+    }
+  },
+  "pricing": {
+    "title": "Pricing Plans",
+    "subtitle": "Choose the best plan for your team",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "price": "$0",
+        "period": "Forever Free"
+      },
+      "business": {
+        "name": "Business",
+        "price": "$5",
+        "period": "per user/month"
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "Contact Us",
+        "period": "Custom"
+      }
+    },
+    "ctaStart": "Get Started",
+    "ctaContact": "Contact Us"
+  },
+  "cta": {
+    "title": "Get Started Now",
+    "subtitle": "Start with our free plan today. No credit card required.",
+    "buttonStart": "Get Started Free",
+    "buttonContact": "Contact Us"
+  },
+  "support": {
+    "title": "Support",
+    "subtitle": "Feel free to contact us if you need help",
+    "documentation": "Documentation",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "releases": {
+    "title": "Release Notes",
+    "subtitle": "Updates and new features of the system",
+    "latest": "Latest",
+    "newFeatures": "New Features",
+    "bugFixes": "Bug Fixes"
+  },
+  "navigation": {
+    "home": "Home",
+    "support": "Support",
+    "releases": "Releases",
+    "login": "Login",
+    "signup": "Get Started Free"
+  },
+  "footer": {
+    "product": "Product",
+    "features": "Features",
+    "pricing": "Pricing",
+    "support": "Support",
+    "helpCenter": "Help Center",
+    "documentation": "Documentation",
+    "contact": "Contact",
+    "company": "Company",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyright": "All rights reserved."
+  }
+}

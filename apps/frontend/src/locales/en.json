@@ -1,0 +1,74 @@
+{
+  "common": {
+    "appName": "Attendance Management System",
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "yes": "Yes",
+    "no": "No",
+    "search": "Search",
+    "filter": "Filter",
+    "export": "Export"
+  },
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "register": "Sign Up",
+    "email": "Email Address",
+    "password": "Password",
+    "name": "Name",
+    "loginButton": "Sign In",
+    "registerButton": "Sign Up",
+    "forgotPassword": "Forgot Password?",
+    "alreadyHaveAccount": "Already have an account?",
+    "dontHaveAccount": "Don't have an account?",
+    "loginSuccess": "Successfully logged in",
+    "registerSuccess": "Successfully registered"
+  },
+  "attendance": {
+    "checkIn": "Check In",
+    "checkOut": "Check Out",
+    "status": "Status",
+    "checkedIn": "Checked In",
+    "checkedOut": "Checked Out",
+    "workingTime": "Working Time",
+    "todayAttendance": "Today's Attendance",
+    "attendanceHistory": "Attendance History",
+    "checkInSuccess": "Successfully checked in",
+    "checkOutSuccess": "Successfully checked out"
+  },
+  "admin": {
+    "dashboard": "Dashboard",
+    "users": "User Management",
+    "employees": "Employee Management",
+    "attendanceManagement": "Attendance Management",
+    "userList": "User List",
+    "employeeList": "Employee List",
+    "clockRecords": "Clock Records",
+    "employeeNumber": "Employee Number",
+    "department": "Department",
+    "position": "Position",
+    "role": "Role",
+    "admin": "Administrator",
+    "employee": "Employee"
+  },
+  "navigation": {
+    "home": "Home",
+    "attendance": "Attendance",
+    "profile": "Profile",
+    "settings": "Settings",
+    "support": "Support",
+    "releases": "Release Notes"
+  },
+  "errors": {
+    "serverError": "Server error occurred",
+    "networkError": "Network error occurred",
+    "unauthorized": "Not authenticated",
+    "forbidden": "Access denied",
+    "notFound": "Page not found",
+    "validationError": "Please check your input"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "website": {
+    "title": "勤怠管理システム",
+    "tagline": "クラウド型勤怠管理で、もっとシンプルに"
+  },
+  "hero": {
+    "title": "勤怠管理を、もっとシンプルに",
+    "subtitle": "クラウド型勤怠管理システムで、従業員の勤務時間を正確に記録・管理",
+    "ctaStart": "無料で始める",
+    "ctaLearnMore": "詳しく見る"
+  },
+  "features": {
+    "title": "主な機能",
+    "subtitle": "勤怠管理に必要な全ての機能を提供",
+    "items": {
+      "easyClocking": {
+        "title": "簡単な打刻",
+        "description": "ワンクリックで出勤・退勤を記録。スマートフォンからでも簡単に打刻できます。"
+      },
+      "dashboard": {
+        "title": "管理者ダッシュボード",
+        "description": "全従業員の勤怠状況を一目で確認。リアルタイムで勤務状況を把握できます。"
+      },
+      "cloud": {
+        "title": "クラウドベース",
+        "description": "どこからでもアクセス可能。データは安全にクラウドに保存されます。"
+      },
+      "multilingual": {
+        "title": "多言語対応",
+        "description": "日本語と英語に対応。グローバルチームでも安心して利用できます。"
+      },
+      "secure": {
+        "title": "セキュア",
+        "description": "AWS基盤で安全性を確保。データの暗号化と定期バックアップを実施。"
+      },
+      "responsive": {
+        "title": "レスポンシブデザイン",
+        "description": "PC、タブレット、スマートフォンなど、あらゆるデバイスで最適な表示。"
+      }
+    }
+  },
+  "pricing": {
+    "title": "料金プラン",
+    "subtitle": "あなたのチームに最適なプランを選択",
+    "plans": {
+      "starter": {
+        "name": "スターター",
+        "price": "¥0",
+        "period": "永久無料"
+      },
+      "business": {
+        "name": "ビジネス",
+        "price": "¥500",
+        "period": "ユーザー/月"
+      },
+      "enterprise": {
+        "name": "エンタープライズ",
+        "price": "お問い合わせ",
+        "period": "カスタム"
+      }
+    },
+    "ctaStart": "始める",
+    "ctaContact": "お問い合わせ"
+  },
+  "cta": {
+    "title": "今すぐ始めましょう",
+    "subtitle": "無料プランで今すぐ始められます。クレジットカードは不要です。",
+    "buttonStart": "無料で始める",
+    "buttonContact": "お問い合わせ"
+  },
+  "support": {
+    "title": "サポート",
+    "subtitle": "お困りのことがあれば、お気軽にお問い合わせください",
+    "documentation": "ドキュメント",
+    "faq": "よくある質問",
+    "contact": "お問い合わせ"
+  },
+  "releases": {
+    "title": "リリースノート",
+    "subtitle": "システムの更新履歴と新機能のご紹介",
+    "latest": "最新",
+    "newFeatures": "新機能",
+    "bugFixes": "修正"
+  },
+  "navigation": {
+    "home": "ホーム",
+    "support": "サポート",
+    "releases": "リリースノート",
+    "login": "ログイン",
+    "signup": "無料で始める"
+  },
+  "footer": {
+    "product": "製品",
+    "features": "機能",
+    "pricing": "料金",
+    "support": "サポート",
+    "helpCenter": "ヘルプセンター",
+    "documentation": "ドキュメント",
+    "contact": "お問い合わせ",
+    "company": "会社情報",
+    "about": "会社概要",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "copyright": "All rights reserved."
+  }
+}

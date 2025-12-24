@@ -1,0 +1,58 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env*.local
+.env.development
+.env.production
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+coverage/
+*.lcov
+.nyc_output/
+
+# Logs
+logs/
+*.log
+
+# AWS
+.aws-sam/
+samconfig.toml
+
+# CDK
+cdk.out/
+.cdk.staging/
+
+# LocalStack
+tools/docker/localstack/
+
+# OS
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
